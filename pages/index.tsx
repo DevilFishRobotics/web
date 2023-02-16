@@ -32,7 +32,10 @@ export default function Home() {
             className="bg-blue-200 font-title text-neutral-900 p-2 rounded-lg font-bold"
             type="submit"
           >
-            Join on SunDevilSync
+            <a href="https://asu.campuslabs.com/engage/organization/devilfish">
+              {" "}
+              Join on SunDevilSync
+            </a>
           </button>
         </div>
       </div>
