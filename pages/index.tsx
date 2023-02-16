@@ -1,3 +1,4 @@
+import Socials from "@/components/Socials";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,38 +6,37 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="text-center">
-          <Link passHref href="/">
-            <div className="relative h-48 w-[195px] mx-auto">
-              <Image
-                alt="Logo of DevilFish Robotics"
-                layout="fill"
-                objectFit="cover"
-                src="/logo.png"
-                className="my-0 block"
-              />
-            </div>
-          </Link>
+        <div className="flex flex-col justify-center text-center">
+          <div className="mx-auto">
+            <Image
+              alt="Logo of DevilFish Robotics"
+              src="/team1.png"
+              width={640}
+              height={405}
+              className="my-0 block"
+            />
+          </div>
           <h1>DevilFish Robotics</h1>
-        </div>
-        <h2>Get Involved</h2>
-        <p>DevilFish Robotics is asd as dfa da asd asdasdasdasdas asdasdasd.</p>
-        <div className="flex space-x-4">
-          <button
-            className="bg-blue-200 font-title text-neutral-900 p-2 rounded-lg font-bold"
-            type="submit"
-          >
-            Join the Discord
-          </button>
-          <button
-            className="bg-blue-200 font-title text-neutral-900 p-2 rounded-lg font-bold"
-            type="submit"
-          >
-            <a href="https://asu.campuslabs.com/engage/organization/devilfish">
-              {" "}
-              Join on SunDevilSync
-            </a>
-          </button>
+          <Socials />
+          <div className="justify-center">
+            <h2>Join Us</h2>
+            <p>
+              The best way to join DevilFish Robotics is through the Sun Devil
+              Sync link below!
+            </p>
+            <button
+              className="bg-blue-200 font-title text-neutral-900 p-2 rounded-lg font-bold w-fit"
+              type="submit"
+            >
+              <a
+                href="https://asu.campuslabs.com/engage/organization/devilfish"
+                target="_blank"
+              >
+                {" "}
+                Join on SunDevilSync
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </>

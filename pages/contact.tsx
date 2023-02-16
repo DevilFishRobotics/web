@@ -57,10 +57,10 @@ export default function Contact() {
       <form autoComplete="off" className="font-body" onSubmit={submitForm}>
         <h3 className="mb-0">Send Us an Email</h3>
         <a
-          href="mailto:achntj@gmail.com"
+          href="mailto:DevilfishRobotics@gmail.com"
           className="flex items-baseline group space-x-4 !text-black italic text-xl sm:text-3xl font-title !underline underline-offset-4"
         >
-          <span>devilfish@example.com</span>
+          <span>DevilfishRobotics@gmail.com</span>
           <span>
             <ArrowUpRightIcon className="h-4 w-4 group-hover:-translate-y-2 group-hover:translate-x-2 transition duration-100 ease-in-out" />
           </span>
@@ -95,7 +95,7 @@ export default function Contact() {
           onChange={(e) => setSec(e.target.value)}
           required
         />
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">Questions or Concerns</label>
         <textarea
           name="message"
           id="message"

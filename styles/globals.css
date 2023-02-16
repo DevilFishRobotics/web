@@ -6,10 +6,6 @@ body {
   @apply bg-orange-50;
 }
 
-.prose {
-  max-width: 100%;
-}
-
 img {
   user-drag: none;
   -webkit-user-drag: none;
