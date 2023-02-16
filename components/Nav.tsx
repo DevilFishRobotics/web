@@ -14,7 +14,7 @@ export default function Nav({
   setOpen: Dispatch<SetStateAction<boolean>>;
 }) {
   return (
-    <div className="mx-5 py-5 md:flex justify-between items-center text-sm font-bold border-b-[0.5px] border-neutral-400 mb-10">
+    <div className="mx-5 sticky top-0 z-50 bg-orange-50 py-5 md:flex justify-between items-center text-sm font-bold border-b-[0.5px] border-neutral-400 mb-10">
       <Link passHref href="/">
         <div className="relative h-10 w-[114px]">
           <Image
