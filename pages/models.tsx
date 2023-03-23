@@ -11,8 +11,13 @@ const DisplayModel = dynamic(
 
 export default function App() {
   return (
-    <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3">
+    <div className="">
       <DisplayModel modelName="model.glb" />
+      {/*      
+      <DisplayModel modelName="central-computing-unit.glb" />
+      <DisplayModel modelName="thruster-1.glb" />
+      <DisplayModel modelName="thruster-2.glb" />
+        */}
     </div>
   );
 }
