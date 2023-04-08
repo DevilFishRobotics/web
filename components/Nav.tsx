@@ -40,8 +40,9 @@ export default function Nav({
           <NavLink href="/" name="HOME" />
           <NavLink href="/events" name="EVENTS" />
           <NavLink href="/about" name="ABOUT" />
+          <NavLink href="/models" name="MODELS" />
           <div className="text-yellow-600 flex items-center space-x-2">
-            <NavLink href="/contact" name="CONTACT US" />
+            <NavLink href="/contact" name="CONTACT" />
             <div className="rounded-full bg-yellow-600 p-2 w-9 hidden sm:block">
               <EnvelopeIcon className="h-5 w-5 text-white mx-auto" />
             </div>

@@ -11,7 +11,7 @@ const DisplayModel = dynamic(
 
 export default function App() {
   return (
-    <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3">
+    <div className="">
       <DisplayModel modelName="model.glb" />
     </div>
   );
